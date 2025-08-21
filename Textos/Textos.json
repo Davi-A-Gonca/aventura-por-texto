@@ -27,38 +27,43 @@
     "proximos": { "A": "varinha_magica", "B": "aljava_magica", "C": "capa_invi" }
   },
   "aljava_magica": {
-    "texto": ["> Aljava mágica\n", "Você decide nadar pelo rio, você já matou um urso e entrou na floresta, porque não completar a experiência de um druida com um banho no rio?",
-            "Mas ao começar a retirar a armadura, você vê que o rio começa de dentro do castelo, dando uma passagem direta entre o lado de fora e o de dentro sem perigos...",
-            "\n...\n", "Depois de testar as águas com um peixe que você pescou, você constatou que o rio era seguro, e mergulhou", "Submergindo no pátio interno do castelo, você está completamente sozinho",
-            "Você sabe que tem algo acontecendo", "Ao vasculhar a área, e ter certeza que alguns dos seus itens sobreviveram as águas, você decide procurar o rei",
-            "Depois de um tempo vasculhando, você ouve uma comoção, parece ser uma festa em homenagem ao rei", "Seguindo as vozes, você se depara com as costas de um trono",
-            "Aparentemente ninguém te viu ainda. Você checa suas possibilidades:", "Um ataque surpresa contra o rei\nRoubar o que precisa e fugir\nSe aliar ao rei",
+    "texto": ["> Aljava mágica\n", "Você pega a aljava mágica, um arco nunca te deixou na mão.", "Você testa uma flecha, uma amarela, e uma explosão ocorre dentro da caverna", "O Urso não gostou disso",
+            "Após uma fuga bem sucedida, você consta que as flechas não se repõem, mas tem o suficiente para você alcançar seu objetivo",
+            "\n...\n", "Após uma cena brutal cheia de explosões, galinhas e sangue, você chega frente a frente ao rei.", "Ele está com uma espada em mãos, esperando que você faça seu movimento primeiro",
+            "Você espera que ele desvie de sua flecha, e seu corpo pende para a direita, para o escudo, você acha que consegue atingir ele",
+            "Você só tem mais 3 flechas:", "Uma vermelha\nUma verde\nUma azul",
+            "Você não sabe do que elas são capazes, só tinha uma de cada, então você teve certeza de guardar para agora",
             "O que você faz?"],
-    "opcoes": { "A": "Ataque surpresa", "B": "Roubar escondido", "C": "Se aliar ao rei" },
-    "proximos": { "A": "ataque_rei", "B": "roubar_escondido", "C": "rei_aliar" }
+    "opcoes": { "A": "Vermelho", "B": "Verde", "C": "Azul" },
+    "proximos": { "A": "flecha_verm", "B": "flecha_verd", "C": "flecha_az" }
   },
-  "roubar_escondido": {
-    "texto": ["> Roubar escondido\n", "Você decide roubar o rei sem ser visto. Afinal, foi o que você foi contratado para fazer não?",
-            "Você já havia vasculhado o castelo, então, você foi à tesouraria e roubou o bem mais precioso da coleção do rei. A mão de Midas",
-            "Com seu novo brinquedo em mãos, você foge de onde veio, se perguntando o que aconteceria se você decidisse fazer outra coisa..."],
+  "flecha_verm": {
+    "texto": ["> Vermelho\n", "Você decide usar a flecha vermelha. Um tiro certeiro, uma morte rápida", "Pelo menos você espera",
+            "Enquanto você pega a flecha, você o rei se tensionando, nenhum dos dois sabe o que está por vir, mas você mantém a confiança de que sabe",
+            "Você prepara a flecha...\nE atira\n", "O rei se desvia para o escudo, exatamente como você esperava", "E sua flecha cai na perna dele, como você esperava",
+            "O que você não esperava, era a cor vermelha", "O rei arranca a flecha da sua perna, e ele começa a crescer e crescer e crescer",
+            "Seus olhos estão vermelhos, mas você não acha que seja da flecha", "Você tenta fugir, apenas para ser pego pelas enormes mãos do rei-vermelho",
+            "Enquanto ele começa a te apertar com muita força, e te levanta, você se pergunta o que aconteceria se você decidisse fazer outra coisa..."],
     "opcoes": {},
     "proximos": {}
   },
-  "ataque_rei": {
-    "texto": ["> Ataque surpresa\n", "Você decide atacar o rei sem ser visto. Nunca mais o rei seria um problema para você.",
-            "Você tira sua espada, já meio gasta de sangue de urso, calcula onde seria o torso do rei pelas costas da cadeira e...\n",
-            "\n...\n", "Já fazem 3 meses que você matou o rei. E seu império nunca esteve melhor.", "Crianças correm pelas ruas seguras, guardas reveem suas famílias",
-            "Fazendeiros com lavrouora o suficiente para uma vida inteira, e seu pet Dragão acabou de dar cria.",
-            "Do alto do seu trono, você vê o império que construiu com orgulho, se perguntando o que aconteceria se você decidisse fazer outra coisa..."],
+  "flecha_verd": {
+    "texto": ["> Verde\n", "Você decide usar a flecha verde", "O rei claramente não esperava por isso, baixando sua guarda", "Você atira na abertura, esperando pelo melhor",
+            "O tiro acerta o rei no peito, fazendo ele derrubar seu escudo", "O rei cambaleia, e você se move para longe dele acompanhando os passos dele",
+            "A cor começa a sair da flecha, e aparece no rei", "O rei fica verde, largando a espada e se jogando de joelhos no chão", "Um mar de vômito e sangue sai do rei, e depois, ele cai de cara no chão, morto.",
+            "\n...\n", "Após alguns meses, o povo ainda te celebra por livrar-os do rei e toda sua guarda", "O novo rei, o original, te nomeia chefe dos artilheiros reais, e você aceita sua nova posição com honra",
+            "Enquanto você tenta convencer o mago real a fazer flechas mágicas para você, você se pergunta o que aconteceria se você decidisse fazer outra coisa..."],
     "opcoes": {},
     "proximos": {}
   },
-  "rei_aliar": {
-    "texto": ["> Se aliar ao rei\n", "Você decide se aliar ao rei.",
-            "Você sempre teve facínio sobre como esse ladrão extraordinário conseguiu tanto vindo de um lugar tão singelo",
-            "Você se espelha nele desde que conheceu a vila de Tantueguera, suas histórias fazendo crianças chorar e homens tremer",
-            "Você queria ser como ele. Você iria ser como ele. Você iria servir a ele", "Um começo singelo como o dele, claramente ele iria entender",
-            "Você se ajoelha perante o rei, esperando sua decisão.", "Enquanto você sente a espada na sua nuca, a única pergunta que resta é o que aconteceria se você decidisse fazer outra coisa..."],
+  "flecha_az": {
+    "texto": ["> Azul\n", "Você decide usar a flecha azul.", "Imediatamente, o rei ataca", "Teria sido um blefe? Ele apenas fingiu esperar seu ataque?",
+            "Você não tem tempo de pensar, ele tenta te acertar com a espada, te encurralar com o escudo, mas você é rápido e desvia com dificuldade dos ataques",
+            "Você atira a flecha para cima, esperando que você consiga posicionar ele sem que ele perceba", "O rei continua a atacar, e você se protege do melhor jeito com sua flecha, que se quebra",
+            "No momento que o rei consegue te fazer um ataque direto no coração a flecha cai na cabeça dele", "E ele te mata", "Você vê seus olhos esbugalhados, você vê sua fraca tentativa de parar a espada, você vê você mesmo cair no chão do trono",
+            "Você olha para suas mãos, uma espada e um escudo, e muito sangue.", "Você larga ambos e coloca a mão em sua cabeça para encontrar uma flecha, quando você tira, ela não possui nenhuma cor",
+            "Guardas saem dos esconderijos, vindo se ajoelhar perante a você, eles parecem com medo", "Você anda em direção ao trono, apenas para se sentar e colocar a coroa", "Você é o rei",
+            "Você balança uma mão, e seu corpo é levado do chão da sala. Você balança outra, e médicos vem conferir seus machucados", "Enquanto você decide o que fazer com seu novo reinado você se pergunta o que aconteceria se você decidisse fazer outra coisa..."],
     "opcoes": {},
     "proximos": {}
   },
