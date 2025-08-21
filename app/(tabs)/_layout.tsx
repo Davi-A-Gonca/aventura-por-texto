@@ -25,7 +25,7 @@ export default function TabLayout() {
           },
           default: {},
         }),
-      }}>
+      }}>/*
       <Tabs.Screen
         name="index"
         options={{
@@ -39,7 +39,7 @@ export default function TabLayout() {
           title: 'Explore',
           tabBarIcon: ({ color }) => <IconSymbol size={28} name="paperplane.fill" color={color} />,
         }}
-      />
+      />*/
     </Tabs>
   );
 }

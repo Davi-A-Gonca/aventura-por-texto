@@ -1,0 +1,266 @@
+{
+  "inicio": {
+    "texto":["Você anda pela floresta escura...", "Foi sua única ideia de conseguir entrar no castelo, mas agora você tem suas dúvidas",
+            "Você ainda consegue ver o castelo pela distância que você está, então você segue o muro em uma distância segura",
+            "Porém, quando você menos espera, você é atacado por um urso!", "Você tem a sua disposição:",
+            "Uma espada\nSeu último pedaço de ração\nA velocidade de alguém com a vontade de viver", "O que você fará agora?"],
+    "opcoes": {
+      "A": "Atacar o urso",
+      "B": "Alimentar o urso",
+      "C": "Fugir do urso"
+    },
+    "proximos": {
+      "A": "ataque_urso",
+      "B": "alimento_urso",
+      "C": "fuga_urso"
+    }
+  },
+  "alimento_urso": {
+    "texto": ["> Alimentar o urso\n", "Você decide entregar seu último pedaço de ração para o urso", "Você deduz que ele está faminto e não apresenta ameaça real",
+            "Você taca a ração na direção do urso, que pega com a boca", "Ele come com calma, mas você não baixa sua guarda", "Após um tempo, o urso se vira e sai andando",
+            "Depois de uns passos, o urso para, olha para você e volta a andar para longe", "Ele parece querer que você o siga", "E você, claro, decide seguir o urso",
+            "Você segue o urso até uma caverna, não parecem ter mais ursos dentro", "O urso na caverna, sem olhar para trás",
+            "Depois de fazer uma tocha, você entra atrás do urso.", "Ele parece ter começado a dormir, mas ao lado dele você três itens:",
+            "Uma vareta com uma luz na ponta\nUma aljava cheia de flechas com cores diferentes\nUma capa quase imperceptível",
+            "Você decide que esses itens podem te ajudar a entrar no castelo, e que o urso não vai se importar em pegar algum deles", "Qual item você escolhe?"],
+    "opcoes": { "A": "Varinha mágica", "B": "Aljava mágica", "C": "Capa da invisibilidade... mágica" },
+    "proximos": { "A": "varinha_magica", "B": "aljava_magica", "C": "capa_invi" }
+  },
+  "aljava_magica": {
+    "texto": ["> Aljava mágica\n", "Você decide nadar pelo rio, você já matou um urso e entrou na floresta, porque não completar a experiência de um druida com um banho no rio?",
+            "Mas ao começar a retirar a armadura, você vê que o rio começa de dentro do castelo, dando uma passagem direta entre o lado de fora e o de dentro sem perigos...",
+            "\n...\n", "Depois de testar as águas com um peixe que você pescou, você constatou que o rio era seguro, e mergulhou", "Submergindo no pátio interno do castelo, você está completamente sozinho",
+            "Você sabe que tem algo acontecendo", "Ao vasculhar a área, e ter certeza que alguns dos seus itens sobreviveram as águas, você decide procurar o rei",
+            "Depois de um tempo vasculhando, você ouve uma comoção, parece ser uma festa em homenagem ao rei", "Seguindo as vozes, você se depara com as costas de um trono",
+            "Aparentemente ninguém te viu ainda. Você checa suas possibilidades:", "Um ataque surpresa contra o rei\nRoubar o que precisa e fugir\nSe aliar ao rei",
+            "O que você faz?"],
+    "opcoes": { "A": "Ataque surpresa", "B": "Roubar escondido", "C": "Se aliar ao rei" },
+    "proximos": { "A": "ataque_rei", "B": "roubar_escondido", "C": "rei_aliar" }
+  },
+  "roubar_escondido": {
+    "texto": ["> Roubar escondido\n", "Você decide roubar o rei sem ser visto. Afinal, foi o que você foi contratado para fazer não?",
+            "Você já havia vasculhado o castelo, então, você foi à tesouraria e roubou o bem mais precioso da coleção do rei. A mão de Midas",
+            "Com seu novo brinquedo em mãos, você foge de onde veio, se perguntando o que aconteceria se você decidisse fazer outra coisa..."],
+    "opcoes": {},
+    "proximos": {}
+  },
+  "ataque_rei": {
+    "texto": ["> Ataque surpresa\n", "Você decide atacar o rei sem ser visto. Nunca mais o rei seria um problema para você.",
+            "Você tira sua espada, já meio gasta de sangue de urso, calcula onde seria o torso do rei pelas costas da cadeira e...\n",
+            "\n...\n", "Já fazem 3 meses que você matou o rei. E seu império nunca esteve melhor.", "Crianças correm pelas ruas seguras, guardas reveem suas famílias",
+            "Fazendeiros com lavrouora o suficiente para uma vida inteira, e seu pet Dragão acabou de dar cria.",
+            "Do alto do seu trono, você vê o império que construiu com orgulho, se perguntando o que aconteceria se você decidisse fazer outra coisa..."],
+    "opcoes": {},
+    "proximos": {}
+  },
+  "rei_aliar": {
+    "texto": ["> Se aliar ao rei\n", "Você decide se aliar ao rei.",
+            "Você sempre teve facínio sobre como esse ladrão extraordinário conseguiu tanto vindo de um lugar tão singelo",
+            "Você se espelha nele desde que conheceu a vila de Tantueguera, suas histórias fazendo crianças chorar e homens tremer",
+            "Você queria ser como ele. Você iria ser como ele. Você iria servir a ele", "Um começo singelo como o dele, claramente ele iria entender",
+            "Você se ajoelha perante o rei, esperando sua decisão.", "Enquanto você sente a espada na sua nuca, a única pergunta que resta é o que aconteceria se você decidisse fazer outra coisa..."],
+    "opcoes": {},
+    "proximos": {}
+  },
+  "ponte_atravessada": {
+    "texto": ["> Atravessar a ponte\n", "Você decide atravessar a ponte, como uma ponte tão aparentemente tranquila poderia ser outra coisa além de tranquila?",
+            "Você atravessa ela, como já atravessou tantas outras pontes, apesar de que dessa vez, você tem uma missão", "Você escuta um barulho",
+            "Ao se virar ao barulho com espada à mãos, você vê um troll, ele parece ter acabado de acordar", "Você foge do troll e chega no portão que realmente estava aberto",
+            "Ao atravessar o portão, luzes começam a brilhar de todos os lugares, você não consegue enxergar nada",
+            "Quando as luzes se apagam, você está na torre do mago, era um alarme!", "O mago não parece a fim de conversar, levantando sua varinha mágica a você e conjurando uma magia",
+            "Rapidamente você se lembra das coisa mais rápidas de se pegar na sua bolsa:", "Uma faca de bolso\nUm escudo de bolso\nUma pedra... de bolso",
+            "O que você faz?"],
+    "opcoes": { "A": "Ataque a faca", "B": "Se defenda com o escudo", "C": "Distrair com a pedra" },
+    "proximos": { "A": "ataque_mago", "B": "defender_mago", "C": "distrair_mago" }
+  },
+  "defender_mago": {
+    "texto": ["> Se defenda com o escudo\n", "Você pega o escudo e rebate a magia para longe", "Ela começa a rebater em todas as direções, o mago não para de tacar magias que se dissipam em seu escudo ou voam janela a fora",
+            "Você recua enquanto se defende, mas está quase na janela, o mago avança", "Detrás do mago, você vê a primeira magia que ele tacou, e com toda a sua coragem você se taca a frente, derrubando o mago\n",
+            "\n...\n", "Faz quanto tempo que você não é vocês?", "Quantos meses que seu pensamento só tinha sua voz?", "Suas lembranças se juntam, você se lembra de ter uma voz",
+            "Fazer magia com dois cérebros, com o tempo fica mais fácil, mas o controle fica cada vez mais difícil.", "O unico pensamento em unissono que vem é, o que aconteceria se você decidisse fazer outra coisa..."],
+    "opcoes": {},
+    "proximos": {}
+  },
+  "ataque_mago": {
+    "texto": ["> Ataque a faca\n", "Você ataca o mago enquanto se abaixa da magia, a faca acerta exatamente no meio do olho esquedo dele... talvez um pouco mais acima? Não importa.",
+            "Você ganhou do mago, e agora pode voltar a focar em sua tarefa.", "Você vasculha os livros do mago, decidindo qual deles trará seu verdadeiro destino",
+            "Você decide encontrar uma magia de teletransporte e mandar todos os livros diretamente para a sua casa, como você adorava se teletransportar",
+            "Ao encontrar, você imediatamente começa o ritual, tão comum a você, um sentimento quase esquecido", "Você chega em casa, quase que imediatamente, o livro deve ser bom",
+            "Com seus novos livros, você pode começar a voltar a ser o mago que era antes de ser amaldiçoado pelo rei, mas você não consegue parar de se perguntar o que aconteceria se você decidisse fazer outra coisa..."],
+    "opcoes": {},
+    "proximos": {}
+  },
+  "distrair_mago": {
+    "texto": ["> Distrair com a pedra\n", "Você decide atirar a pedra de bolso.",
+            "Por sorte, a magia não exigia concentração...", "Ou seira por azar?", "Não importa, nada mais importa",
+            "Você é uma raposa, então melhor se acostumar a rir e brincar na neve",
+            "O seu último pensamento humano sendo, o que aconteceria se você decidisse fazer outra coisa..."],
+    "opcoes": {},
+    "proximos": {}
+  },
+  "barco_construido": {
+    "texto": ["> Construir um barco\n", "Você decide contruir um barco, mesmo que tudo aparente estar tranquilo, pode ser só um truque, você não confia no rei o suficiente para isso",
+            "Com seu machado, você coleta madeira suficiente para construir um barco e um remo", "Com o barco construído você o leva até a água e gentilmente coloca ele na água",
+            "No momento que você pisa no barco a correnteza começa acelerar", "Uma armadilha, exatamente como você imaginou",
+            "Com o seu remo, você faz o seu melhor para guiar o barco até a outra margem,", "mas, quanto mais longe você está da margem, mais rápido fica a correnteza", "Aquele mago idiota",
+            "A correnteza parece puxar uma ponta do seu barco, fazendo ele virar", "Você nota que não sabe mais qual é a margem certa", "Você nota que não importa mais, desde que você chegue em alguma margem",
+            "Você procura no barco itens que podem te ajudar:", "Uma corda\nUm remo\nUma ideia idiota que você talvez tenha a sorte de dar certo",
+            "O que você faz?"],
+    "opcoes": { "A": "Tenta laçar a corda em alguma pedra", "B": "Usa o remo para parar chegar perto de uma rocha", "C": "Se joga do barco antes de chegar nas pedras" },
+    "proximos": { "A": "lacar_corda", "B": "usar_remo", "C": "ideia_idiota_barco" }
+  },
+  "lacar_corda": {
+    "texto": ["> Tentar laçar a corda em alguma pedra\n", "Você decide tentar laçar uma corda a uma pedra na margem",
+            "A correnteza puxa uma ponta do barco, fazendo ele girar, você não sabe qual margem a corda vai alcançar", "Ao ver uma pedra na margem você lança a corda, esperançoso",
+            "A corda se prende na pedra, puxando você com toda a força enquanto o barco continua sua jornada pelo rio, com sua coisas", "Você cai na água, mas ainda segura com firmeza a corda",
+            "Você puxa a corda, lutando contra peixes e pedaços de lixo para chegar à margem", "Você chega, exausto e sem um sapato na margem",
+            "Enquanto você recupera o fôlego você nota que alcançou a margem certa, e está a dois passos do muro", "Infelizmente, o guarda que estava guardando o castelo também",
+            "Enquanto você volta a lutar por sua vida, você se pergunta o que aconteceria se você decidisse fazer outra coisa..."],
+    "opcoes": {},
+    "proximos": {}
+  },
+  "usar_remo": {
+    "texto": ["> Usar o remo para parar chegar perto de uma rocha\n", "Em uma atitude desesperada, você decide usar o remo para alcançar alguma margem",
+            "Ao levantar o remo, ele se prende a duas pedras, puxando você e tirando você do barco justo quando ele iria atingir outras pedras", "Mas o barco não se quebra, e você faz uma nota mental do quão forte são essas árvores",
+            "Sem nenhuma escolha, você começa a escalar o remo e se prende a uma pedra",
+            "Você escala essa pedra e percebe que ela é bem mais plana do que você imaginava", "Você está agora no meio do rio, tentando decidir quais as suas possibilidades de sobrevivência",
+            "Enquanto você decide isso, alguém te lança uma corda, parece ser um fazendeiro do rei, um provável aliado", "Equanto ele te puxa para a margem, uma flecha atinge a corda",
+            "Enquanto você sse vira para a muralha, você vê uma frota de arqueiros se preparando para atirar em você", "Enquanto você nada até a margem, três flechas atingem o fazendeiro",
+            "Você finalmente chega até a margem mas quando você começa a correr, uma flecha o atinge atrás do tornozelo",
+            "Enquanto você é atingido por flechas você se pergunta, o que aconteceria se você decidisse fazer outra coisa..."],
+    "opcoes": {},
+    "proximos": {}
+  },
+  "ideia_idiota_barco": {
+    "texto": ["> Se jogar do barco antes de chegar nas pedras\n", "Você decide se jogar do barco", "Seja lá quem colocou essa armadilha, deve ter pensado em todas as maneiras que você poderia fugir",
+            "Então, o melhor jeito de se fugir seria por fazer uma coisa impensável", "Apesar de que você poderia ter pensado melhor",
+            "Enquanto as pedras chegam em seu encontro, você tenta se agarrar a qualquer coisa que consiga", "Você bate em pedras, água, pedras, água, um lixo, alguma coisa dourada",
+            "Enquanto você finalmente percebe porque ninguém pensaria em fazer isso você se pergunta, o que aconteceria se você decidisse fazer outra coisa..."],
+    "opcoes": {},
+    "proximos": {}
+  },
+  "ataque_urso": {
+    "texto": ["> Atacar o urso\n", "Você começa a atacar o urso.", "O urso te larga e se retrai, parece estar na defensiva",
+            "Você avança com a espada na mão e coração na garganta. Quando você se aproxima o suficiente, o Urso se aproxima mais",
+            "Você rola para longe quando o urso tenta te atacar, ele se desequilibra e você consegue enfiar a espada pelo pescoço, matando ele\n",
+            "\n...\n", "Alimentado, você continua sua jornada até o castelo. Seguindo de perto, você enxerga um portão, aparentemente aberto e esquecido",
+            "Tem uma ponte convenientemente atravessandoo rio para defrente ao portão, e abaixo, um rio com uma correnteza aparentemente calma",
+            "Você poderia tentar nadar até o outro lado, mas o quanto sua armadura iria te atrasar?", "Você poderia construir uma jangada, mas como saber se o rio é realmente calmo",
+            "Ou você poderia atravessar a ponte, tudo aparentava estar bem afinal de contas.", "O que você irá fazer?"],
+    "opcoes": { "A": "Atravessar a ponte", "B": "Nadar através", "C": "Construir um barco" },
+    "proximos": { "A": "ponte_atravessada", "B": "rio_nadado", "C": "barco_construido" }
+  },
+  "rio_nadado": {
+    "texto": ["> Nadar através\n", "Você decide nadar pelo rio, você já matou um urso e entrou na floresta, porque não completar a experiência de um druida com um banho no rio?",
+            "Mas ao começar a retirar a armadura, você vê que o rio começa de dentro do castelo, dando uma passagem direta entre o lado de fora e o de dentro sem perigos...",
+            "\n...\n", "Depois de testar as águas com um peixe que você pescou, você constatou que o rio era seguro, e mergulhou", "Submergindo no pátio interno do castelo, você está completamente sozinho",
+            "Você sabe que tem algo acontecendo", "Ao vasculhar a área, e ter certeza que alguns dos seus itens sobreviveram as águas, você decide procurar o rei",
+            "Depois de um tempo vasculhando, você ouve uma comoção, parece ser uma festa em homenagem ao rei", "Seguindo as vozes, você se depara com as costas de um trono",
+            "Aparentemente ninguém te viu ainda. Você checa suas possibilidades:", "Um ataque surpresa contra o rei\nRoubar o que precisa e fugir\nSe aliar ao rei",
+            "O que você faz?"],
+    "opcoes": { "A": "Ataque surpresa", "B": "Roubar escondido", "C": "Se aliar ao rei" },
+    "proximos": { "A": "ataque_rei", "B": "roubar_escondido", "C": "rei_aliar" }
+  },
+  "roubar_escondido": {
+    "texto": ["> Roubar escondido\n", "Você decide roubar o rei sem ser visto. Afinal, foi o que você foi contratado para fazer não?",
+            "Você já havia vasculhado o castelo, então, você foi à tesouraria e roubou o bem mais precioso da coleção do rei. A mão de Midas",
+            "Com seu novo brinquedo em mãos, você foge de onde veio, se perguntando o que aconteceria se você decidisse fazer outra coisa..."],
+    "opcoes": {},
+    "proximos": {}
+  },
+  "ataque_rei": {
+    "texto": ["> Ataque surpresa\n", "Você decide atacar o rei sem ser visto. Nunca mais o rei seria um problema para você.",
+            "Você tira sua espada, já meio gasta de sangue de urso, calcula onde seria o torso do rei pelas costas da cadeira e...\n",
+            "\n...\n", "Já fazem 3 meses que você matou o rei. E seu império nunca esteve melhor.", "Crianças correm pelas ruas seguras, guardas reveem suas famílias",
+            "Fazendeiros com lavrouora o suficiente para uma vida inteira, e seu pet Dragão acabou de dar cria.",
+            "Do alto do seu trono, você vê o império que construiu com orgulho, se perguntando o que aconteceria se você decidisse fazer outra coisa..."],
+    "opcoes": {},
+    "proximos": {}
+  },
+  "rei_aliar": {
+    "texto": ["> Se aliar ao rei\n", "Você decide se aliar ao rei.",
+            "Você sempre teve facínio sobre como esse ladrão extraordinário conseguiu tanto vindo de um lugar tão singelo",
+            "Você se espelha nele desde que conheceu a vila de Tantueguera, suas histórias fazendo crianças chorar e homens tremer",
+            "Você queria ser como ele. Você iria ser como ele. Você iria servir a ele", "Um começo singelo como o dele, claramente ele iria entender",
+            "Você se ajoelha perante o rei, esperando sua decisão.", "Enquanto você sente a espada na sua nuca, a única pergunta que resta é o que aconteceria se você decidisse fazer outra coisa..."],
+    "opcoes": {},
+    "proximos": {}
+  },
+  "ponte_atravessada": {
+    "texto": ["> Atravessar a ponte\n", "Você decide atravessar a ponte, como uma ponte tão aparentemente tranquila poderia ser outra coisa além de tranquila?",
+            "Você atravessa ela, como já atravessou tantas outras pontes, apesar de que dessa vez, você tem uma missão", "Você escuta um barulho",
+            "Ao se virar ao barulho com espada à mãos, você vê um troll, ele parece ter acabado de acordar", "Você foge do troll e chega no portão que realmente estava aberto",
+            "Ao atravessar o portão, luzes começam a brilhar de todos os lugares, você não consegue enxergar nada",
+            "Quando as luzes se apagam, você está na torre do mago, era um alarme!", "O mago não parece a fim de conversar, levantando sua varinha mágica a você e conjurando uma magia",
+            "Rapidamente você se lembra das coisa mais rápidas de se pegar na sua bolsa:", "Uma faca de bolso\nUm escudo de bolso\nUma pedra... de bolso",
+            "O que você faz?"],
+    "opcoes": { "A": "Ataque a faca", "B": "Se defenda com o escudo", "C": "Distrair com a pedra" },
+    "proximos": { "A": "ataque_mago", "B": "defender_mago", "C": "distrair_mago" }
+  },
+  "defender_mago": {
+    "texto": ["> Se defenda com o escudo\n", "Você pega o escudo e rebate a magia para longe", "Ela começa a rebater em todas as direções, o mago não para de tacar magias que se dissipam em seu escudo ou voam janela a fora",
+            "Você recua enquanto se defende, mas está quase na janela, o mago avança", "Detrás do mago, você vê a primeira magia que ele tacou, e com toda a sua coragem você se taca a frente, derrubando o mago\n",
+            "\n...\n", "Faz quanto tempo que você não é vocês?", "Quantos meses que seu pensamento só tinha sua voz?", "Suas lembranças se juntam, você se lembra de ter uma voz",
+            "Fazer magia com dois cérebros, com o tempo fica mais fácil, mas o controle fica cada vez mais difícil.", "O unico pensamento em unissono que vem é, o que aconteceria se você decidisse fazer outra coisa..."],
+    "opcoes": {},
+    "proximos": {}
+  },
+  "ataque_mago": {
+    "texto": ["> Ataque a faca\n", "Você ataca o mago enquanto se abaixa da magia, a faca acerta exatamente no meio do olho esquedo dele... talvez um pouco mais acima? Não importa.",
+            "Você ganhou do mago, e agora pode voltar a focar em sua tarefa.", "Você vasculha os livros do mago, decidindo qual deles trará seu verdadeiro destino",
+            "Você decide encontrar uma magia de teletransporte e mandar todos os livros diretamente para a sua casa, como você adorava se teletransportar",
+            "Ao encontrar, você imediatamente começa o ritual, tão comum a você, um sentimento quase esquecido", "Você chega em casa, quase que imediatamente, o livro deve ser bom",
+            "Com seus novos livros, você pode começar a voltar a ser o mago que era antes de ser amaldiçoado pelo rei, mas você não consegue parar de se perguntar o que aconteceria se você decidisse fazer outra coisa..."],
+    "opcoes": {},
+    "proximos": {}
+  },
+  "distrair_mago": {
+    "texto": ["> Distrair com a pedra\n", "Você decide atirar a pedra de bolso.",
+            "Por sorte, a magia não exigia concentração...", "Ou seira por azar?", "Não importa, nada mais importa",
+            "Você é uma raposa, então melhor se acostumar a rir e brincar na neve",
+            "O seu último pensamento humano sendo, o que aconteceria se você decidisse fazer outra coisa..."],
+    "opcoes": {},
+    "proximos": {}
+  },
+  "barco_construido": {
+    "texto": ["> Construir um barco\n", "Você decide contruir um barco, mesmo que tudo aparente estar tranquilo, pode ser só um truque, você não confia no rei o suficiente para isso",
+            "Com seu machado, você coleta madeira suficiente para construir um barco e um remo", "Com o barco construído você o leva até a água e gentilmente coloca ele na água",
+            "No momento que você pisa no barco a correnteza começa acelerar", "Uma armadilha, exatamente como você imaginou",
+            "Com o seu remo, você faz o seu melhor para guiar o barco até a outra margem,", "mas, quanto mais longe você está da margem, mais rápido fica a correnteza", "Aquele mago idiota",
+            "A correnteza parece puxar uma ponta do seu barco, fazendo ele virar", "Você nota que não sabe mais qual é a margem certa", "Você nota que não importa mais, desde que você chegue em alguma margem",
+            "Você procura no barco itens que podem te ajudar:", "Uma corda\nUm remo\nUma ideia idiota que você talvez tenha a sorte de dar certo",
+            "O que você faz?"],
+    "opcoes": { "A": "Tenta laçar a corda em alguma pedra", "B": "Usa o remo para parar chegar perto de uma rocha", "C": "Se joga do barco antes de chegar nas pedras" },
+    "proximos": { "A": "lacar_corda", "B": "usar_remo", "C": "ideia_idiota_barco" }
+  },
+  "lacar_corda": {
+    "texto": ["> Tentar laçar a corda em alguma pedra\n", "Você decide tentar laçar uma corda a uma pedra na margem",
+            "A correnteza puxa uma ponta do barco, fazendo ele girar, você não sabe qual margem a corda vai alcançar", "Ao ver uma pedra na margem você lança a corda, esperançoso",
+            "A corda se prende na pedra, puxando você com toda a força enquanto o barco continua sua jornada pelo rio, com sua coisas", "Você cai na água, mas ainda segura com firmeza a corda",
+            "Você puxa a corda, lutando contra peixes e pedaços de lixo para chegar à margem", "Você chega, exausto e sem um sapato na margem",
+            "Enquanto você recupera o fôlego você nota que alcançou a margem certa, e está a dois passos do muro", "Infelizmente, o guarda que estava guardando o castelo também",
+            "Enquanto você volta a lutar por sua vida, você se pergunta o que aconteceria se você decidisse fazer outra coisa..."],
+    "opcoes": {},
+    "proximos": {}
+  },
+  "usar_remo": {
+    "texto": ["> Usar o remo para parar chegar perto de uma rocha\n", "Em uma atitude desesperada, você decide usar o remo para alcançar alguma margem",
+            "Ao levantar o remo, ele se prende a duas pedras, puxando você e tirando você do barco justo quando ele iria atingir outras pedras", "Mas o barco não se quebra, e você faz uma nota mental do quão forte são essas árvores",
+            "Sem nenhuma escolha, você começa a escalar o remo e se prende a uma pedra",
+            "Você escala essa pedra e percebe que ela é bem mais plana do que você imaginava", "Você está agora no meio do rio, tentando decidir quais as suas possibilidades de sobrevivência",
+            "Enquanto você decide isso, alguém te lança uma corda, parece ser um fazendeiro do rei, um provável aliado", "Equanto ele te puxa para a margem, uma flecha atinge a corda",
+            "Enquanto você sse vira para a muralha, você vê uma frota de arqueiros se preparando para atirar em você", "Enquanto você nada até a margem, três flechas atingem o fazendeiro",
+            "Você finalmente chega até a margem mas quando você começa a correr, uma flecha o atinge atrás do tornozelo",
+            "Enquanto você é atingido por flechas você se pergunta, o que aconteceria se você decidisse fazer outra coisa..."],
+    "opcoes": {},
+    "proximos": {}
+  },
+  "ideia_idiota_barco": {
+    "texto": ["> Se jogar do barco antes de chegar nas pedras\n", "Você decide se jogar do barco", "Seja lá quem colocou essa armadilha, deve ter pensado em todas as maneiras que você poderia fugir",
+            "Então, o melhor jeito de se fugir seria por fazer uma coisa impensável", "Apesar de que você poderia ter pensado melhor",
+            "Enquanto as pedras chegam em seu encontro, você tenta se agarrar a qualquer coisa que consiga", "Você bate em pedras, água, pedras, água, um lixo, alguma coisa dourada",
+            "Enquanto você finalmente percebe porque ninguém pensaria em fazer isso você se pergunta, o que aconteceria se você decidisse fazer outra coisa..."],
+    "opcoes": {},
+    "proximos": {}
+  }
+}
