@@ -67,60 +67,59 @@
     "opcoes": {},
     "proximos": {}
   },
-  "ponte_atravessada": {
-    "texto": ["> Atravessar a ponte\n", "Você decide atravessar a ponte, como uma ponte tão aparentemente tranquila poderia ser outra coisa além de tranquila?",
-            "Você atravessa ela, como já atravessou tantas outras pontes, apesar de que dessa vez, você tem uma missão", "Você escuta um barulho",
-            "Ao se virar ao barulho com espada à mãos, você vê um troll, ele parece ter acabado de acordar", "Você foge do troll e chega no portão que realmente estava aberto",
-            "Ao atravessar o portão, luzes começam a brilhar de todos os lugares, você não consegue enxergar nada",
-            "Quando as luzes se apagam, você está na torre do mago, era um alarme!", "O mago não parece a fim de conversar, levantando sua varinha mágica a você e conjurando uma magia",
-            "Rapidamente você se lembra das coisa mais rápidas de se pegar na sua bolsa:", "Uma faca de bolso\nUm escudo de bolso\nUma pedra... de bolso",
+  "varinha_magica": {
+    "texto": ["> Varinha mágica\n", "Você decide pegar a varinha mágica", "Quem poderia deixar passar uma chance como essa?", "Você balança a varinha e ela reluz por instinto. Você levanta ela e ela ilumina mais", "O Urso não gostou disso",
+            "Mas antes que ele possa sequer acordar, você já estava correndo caverna a fora para testar seus novos poderes", "Você não é estranho para a magia, e a varinha não é estranha para uma pessoa, você decide testar um pouco mais",
+            "Você aponta a varinha para uma árvore, e ela se levanta, arrancando as raízes", "Você aponta a varinha para um rio, e ele se seca completamente", "Você enfia a varinha no chão, e um terremoto começa", "É uma varinha decente",
+            "Você chega aos portões do castelo, pronto para acabar sua missão em grande estilo",
+            "Tem três magias que você quer testar:", "Chuva de meteoros\nTransfiguração\nTeletransporte",
             "O que você faz?"],
-    "opcoes": { "A": "Ataque a faca", "B": "Se defenda com o escudo", "C": "Distrair com a pedra" },
-    "proximos": { "A": "ataque_mago", "B": "defender_mago", "C": "distrair_mago" }
+    "opcoes": { "A": "Chuva de meteoros", "B": "Transfiguração", "C": "Teletransporte" },
+    "proximos": { "A": "chuva_meteo", "B": "transfiguracao", "C": "teletransporte" }
   },
-  "defender_mago": {
-    "texto": ["> Se defenda com o escudo\n", "Você pega o escudo e rebate a magia para longe", "Ela começa a rebater em todas as direções, o mago não para de tacar magias que se dissipam em seu escudo ou voam janela a fora",
-            "Você recua enquanto se defende, mas está quase na janela, o mago avança", "Detrás do mago, você vê a primeira magia que ele tacou, e com toda a sua coragem você se taca a frente, derrubando o mago\n",
-            "\n...\n", "Faz quanto tempo que você não é vocês?", "Quantos meses que seu pensamento só tinha sua voz?", "Suas lembranças se juntam, você se lembra de ter uma voz",
-            "Fazer magia com dois cérebros, com o tempo fica mais fácil, mas o controle fica cada vez mais difícil.", "O unico pensamento em unissono que vem é, o que aconteceria se você decidisse fazer outra coisa..."],
+  "chuva_meteo": {
+    "texto": ["> Chuva de meteoros\n", "Você escolhe chuva de meteoros", "Como não escolher chuva de meteoros?", "Dando um novo significado a 'Matar barata com uma bazuca', você lança a magia",
+            "Você vê aparecendo, quase que do nada, meteoros caindo do céu", "Meteoros pintam o céu da tarde, cosntratando tão bem que você acha que é uma pintura", "É lindo", "Você vê enquanto os meteoros se batem contra o castelo",
+            "Guardas fogem em desespero, você vê um lampejo de magia sendo extinguida, um dragão foge de seu confinamento e você vê o Rei, derrotado", "É lindo", "Até que uma torre cai, e você vê a vila atrás do castelo",
+            "A vila está em chamas, casas caindo, pessoas tão pequeninas por causa da distância correm de um lado para o outro, deses peradas", "Você não acha isso lindo",
+            "Enquanto você cai de joelhos derrotado, ou vitorioso, de um jeito horrível, você se pergunta o que aconteceria se você decidisse fazer outra coisa..."],
     "opcoes": {},
     "proximos": {}
   },
-  "ataque_mago": {
-    "texto": ["> Ataque a faca\n", "Você ataca o mago enquanto se abaixa da magia, a faca acerta exatamente no meio do olho esquedo dele... talvez um pouco mais acima? Não importa.",
-            "Você ganhou do mago, e agora pode voltar a focar em sua tarefa.", "Você vasculha os livros do mago, decidindo qual deles trará seu verdadeiro destino",
-            "Você decide encontrar uma magia de teletransporte e mandar todos os livros diretamente para a sua casa, como você adorava se teletransportar",
-            "Ao encontrar, você imediatamente começa o ritual, tão comum a você, um sentimento quase esquecido", "Você chega em casa, quase que imediatamente, o livro deve ser bom",
-            "Com seus novos livros, você pode começar a voltar a ser o mago que era antes de ser amaldiçoado pelo rei, mas você não consegue parar de se perguntar o que aconteceria se você decidisse fazer outra coisa..."],
+  "transfiguração": {
+    "texto": ["> Transfiguração\n", "Você decide usar Transfiguração", "E você já tem uma vaga ideia de quem se transformar", "Você escutou rumores de seus feitos, de como só seu passo consegue clocar medo nos desconhecidos",
+            "De como ninguém conhece sua cara, mas todos sabem quem é", "Você se transforma no Rei", "Ou pelo menos, em quem você acha que o rei é", "Seu plano é simples, entrar no castelo, matar o rei original e repôr a paz no seu reino",
+            "É simples, e ainda sim, eficiente", "Você passa pelos portões, os guardas confusos com sua benevolência e de o que você estava fazendo fora do castelo",
+            "Você anda pelo castelo, varinha no bolso, espada em mãos", "Você passa por guardar e serviçais, sem se importar em como eles te veriam", "Mas eles parecem acostumados",
+            "\n...\n", "Depois de dias de procura, você começa a se perguntar se o rei escapou", "O mago roubou sua varinha enquanto você dormia, mas, por sorte, a Transfiguração não se alterou",
+            "Você se senta no seu trono, mais um fazendeiro pede mais comida, confuso com onde estaria o rei, mas você não consegue parar de se perguntar o que aconteceria se você decidisse fazer outra coisa..."],
     "opcoes": {},
     "proximos": {}
   },
-  "distrair_mago": {
-    "texto": ["> Distrair com a pedra\n", "Você decide atirar a pedra de bolso.",
-            "Por sorte, a magia não exigia concentração...", "Ou seira por azar?", "Não importa, nada mais importa",
-            "Você é uma raposa, então melhor se acostumar a rir e brincar na neve",
+  "teletransporte": {
+    "texto": ["> Teletransporte\n", "Você decide usar teletransporte.", "Uma das magias mais simples, uma das primeiras que você aprendeu, não tem como errar né?",
+            "Você prepara sua magia, foca em uma torre ao oeste e taca sua varinha", "Ela se lança como uma flecha, subindo e subindo, sem parar", "Até que ela chega na janela da torre e você a pega, se materalizando dentro da torre",
+            "Quando você se vira, você vê o mago real, de roupão e com um sanduíche meio comido em mãos", "Antes que ele possa reagir, você lança uma magia, desaparecendo com ele para sempre", "E ganhando um pet coruja chamado Adamastor",
+            "Você explora a torre, procurando alguma magia que ajude a derrotar o rei para sempre", "Adamastor foge com um livro, talvez para tentar voltar a ser humano",
+            "\n...\n", "Dias se passam, você se acostumou com a vida na torre", "O rei é na verdade um cara bem legal, e vocês agora são amigos", "Enquanto você estava tendo o seu lanche da tarde, um guerreiro aparece na sua torre, segurando uma varinha, igual aquela perdida a tanto tempo",
             "O seu último pensamento humano sendo, o que aconteceria se você decidisse fazer outra coisa..."],
     "opcoes": {},
     "proximos": {}
   },
-  "barco_construido": {
-    "texto": ["> Construir um barco\n", "Você decide contruir um barco, mesmo que tudo aparente estar tranquilo, pode ser só um truque, você não confia no rei o suficiente para isso",
-            "Com seu machado, você coleta madeira suficiente para construir um barco e um remo", "Com o barco construído você o leva até a água e gentilmente coloca ele na água",
-            "No momento que você pisa no barco a correnteza começa acelerar", "Uma armadilha, exatamente como você imaginou",
-            "Com o seu remo, você faz o seu melhor para guiar o barco até a outra margem,", "mas, quanto mais longe você está da margem, mais rápido fica a correnteza", "Aquele mago idiota",
-            "A correnteza parece puxar uma ponta do seu barco, fazendo ele virar", "Você nota que não sabe mais qual é a margem certa", "Você nota que não importa mais, desde que você chegue em alguma margem",
-            "Você procura no barco itens que podem te ajudar:", "Uma corda\nUm remo\nUma ideia idiota que você talvez tenha a sorte de dar certo",
+  "capa_invi": {
+    "texto": ["> Capa da invisibilidade... mágica\n", "Você decide usar a capa da invisibilidade", "Geralmente não é uma boa ideia, e a capa não é 100% invisível, mas você decide tomar suas chances",
+            "Você entra no castelo, nenhum dos guardas parecem te perceber", "Você aproveita sua chance e explora o castelo por completo, nenhum perigo a vista",
+            "É até um pouco mais chato do que você imaginou que essa aventura seria", "Você chega em um corredor com três portas:", "A esquerda\nA direita\nEm frente",
             "O que você faz?"],
-    "opcoes": { "A": "Tenta laçar a corda em alguma pedra", "B": "Usa o remo para parar chegar perto de uma rocha", "C": "Se joga do barco antes de chegar nas pedras" },
-    "proximos": { "A": "lacar_corda", "B": "usar_remo", "C": "ideia_idiota_barco" }
+    "opcoes": { "A": "Porta direita", "B": "Porta esquerda", "C": "Porta a frente" },
+    "proximos": { "A": "prt_drt", "B": "prt_sqrd", "C": "prt_frnt" }
   },
-  "lacar_corda": {
-    "texto": ["> Tentar laçar a corda em alguma pedra\n", "Você decide tentar laçar uma corda a uma pedra na margem",
-            "A correnteza puxa uma ponta do barco, fazendo ele girar, você não sabe qual margem a corda vai alcançar", "Ao ver uma pedra na margem você lança a corda, esperançoso",
-            "A corda se prende na pedra, puxando você com toda a força enquanto o barco continua sua jornada pelo rio, com sua coisas", "Você cai na água, mas ainda segura com firmeza a corda",
-            "Você puxa a corda, lutando contra peixes e pedaços de lixo para chegar à margem", "Você chega, exausto e sem um sapato na margem",
-            "Enquanto você recupera o fôlego você nota que alcançou a margem certa, e está a dois passos do muro", "Infelizmente, o guarda que estava guardando o castelo também",
-            "Enquanto você volta a lutar por sua vida, você se pergunta o que aconteceria se você decidisse fazer outra coisa..."],
+  "prt_drt": {
+    "texto": ["> Porta direita\n", "Você decide tentar a porta a direita",
+            "Antes de você conseguir ver o mago, ele já consegue te prender no chão", "O mago parece estar usando uma espécie de óculos estranho, e está olhando diretamente para você",
+            "Você começa uma luta contra o mago, tentando fugir, mas o mago te prende em uma caixa invisível", "Então vocÊ ataca o mago, a capa deslizando para fora",
+            "Você pega a varinha da mão dele e aponta para a cara dele vitorioso", "Mas antes que você consiga fazer alguma coisa, os guardar chegam, e te prendem",
+            "Enquanto você é levado para a masmorra você se pergunta o que aconteceria se você decidisse fazer outra coisa..."],
     "opcoes": {},
     "proximos": {}
   },
